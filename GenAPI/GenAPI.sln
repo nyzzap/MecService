@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenAPI.API", "GenAPI.API\GenAPI.API.csproj", "{21BE22DE-1858-4F5B-ADE9-50DA50EC693B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenAPI.Domain", "GenAPI.Domain\GenAPI.Domain.csproj", "{C95E4007-7F55-4BA7-942B-5C36ECEAE714}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenAPI.DataLayer", "GenAPI.DataLayer\GenAPI.DataLayer.csproj", "{EEBAB889-7D96-4CC1-8FE4-CC5AA887D684}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenAPI.DAO", "GenAPI.DAO\GenAPI.DAO.csproj", "{B6DBB29D-9029-49F8-B561-1CC49995EA80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenAPI.Migrations", "GenAPI.Migrations\GenAPI.Migrations.csproj", "{32A3C706-AAEB-4EB3-B669-407D6D8EACA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenAPI.Models", "GenAPI.Models\GenAPI.Models.csproj", "{129E9B68-9F77-4A88-B605-E7332E6E9FFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenAPI.DomainServices", "GenAPI.DomainServices\GenAPI.DomainServices.csproj", "{AF030C1C-5A95-481D-8A15-3915E4FA84D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21BE22DE-1858-4F5B-ADE9-50DA50EC693B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BE22DE-1858-4F5B-ADE9-50DA50EC693B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BE22DE-1858-4F5B-ADE9-50DA50EC693B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BE22DE-1858-4F5B-ADE9-50DA50EC693B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C95E4007-7F55-4BA7-942B-5C36ECEAE714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C95E4007-7F55-4BA7-942B-5C36ECEAE714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C95E4007-7F55-4BA7-942B-5C36ECEAE714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C95E4007-7F55-4BA7-942B-5C36ECEAE714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEBAB889-7D96-4CC1-8FE4-CC5AA887D684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEBAB889-7D96-4CC1-8FE4-CC5AA887D684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEBAB889-7D96-4CC1-8FE4-CC5AA887D684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEBAB889-7D96-4CC1-8FE4-CC5AA887D684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DBB29D-9029-49F8-B561-1CC49995EA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DBB29D-9029-49F8-B561-1CC49995EA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DBB29D-9029-49F8-B561-1CC49995EA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DBB29D-9029-49F8-B561-1CC49995EA80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32A3C706-AAEB-4EB3-B669-407D6D8EACA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A3C706-AAEB-4EB3-B669-407D6D8EACA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A3C706-AAEB-4EB3-B669-407D6D8EACA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A3C706-AAEB-4EB3-B669-407D6D8EACA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129E9B68-9F77-4A88-B605-E7332E6E9FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129E9B68-9F77-4A88-B605-E7332E6E9FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129E9B68-9F77-4A88-B605-E7332E6E9FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129E9B68-9F77-4A88-B605-E7332E6E9FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF030C1C-5A95-481D-8A15-3915E4FA84D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF030C1C-5A95-481D-8A15-3915E4FA84D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF030C1C-5A95-481D-8A15-3915E4FA84D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF030C1C-5A95-481D-8A15-3915E4FA84D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F60A47E0-39D1-4CB0-B6EE-E8D6DA0330AF}
+	EndGlobalSection
+EndGlobal

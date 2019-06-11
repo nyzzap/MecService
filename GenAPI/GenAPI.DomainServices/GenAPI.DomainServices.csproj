@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GenAPI.DAO\GenAPI.DAO.csproj" />
+    <ProjectReference Include="..\GenAPI.Domain\GenAPI.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
